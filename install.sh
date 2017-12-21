@@ -13,8 +13,8 @@ python setup.py install
 cd ../..
 rm -r msfrpc/
 
-wget http://download.gna.org/wkhtmltopdf/0.12/0.12.3/wkhtmltox-0.12.3_linux-generic-amd64.tar.xz
-tar -xvf wkhtmltox-0.12.3_linux-generic-amd64.tar.xz
+wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.4/wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
+tar -xvf wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
 cp -r wkhtmltox/bin/* /usr/bin/
 cp -r wkhtmltox/include/* /usr/include/
 cp -r wkhtmltox/lib/* /usr/lib/
